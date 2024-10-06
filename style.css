@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/*NAAAAAAAAAAAAAV*/
+.content-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-1{
+    margin-left: 40px;
+}
+
+.nav-1 img{
+    height:100px;
+    transition: transform 0.4s ease;
+}
+
+.nav-1 img:hover{
+    transform: scale(1.1);
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 0 auto;
+    }
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 40px;
+}
+
+.nav-links a {
+    color: white;
+    font-family: poppins;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+.nav-links a:hover {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 2px;
+}
+.logos{
+    margin: 40px;
+    padding-right:40px ;
+}
+
+.content-proyecytos{
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-spacing: 2px;
+
+}
+
+.content-proyecytos h1{
+    font-size: 50px;
+    margin-top: 20px;
+    border-bottom: 3px solid #b3b3b3;
+}
+.content-proyecytos{
+    background-color: #f3f3f3;
+}
+
+.content-proyecytos h2{
+    font-size: 24px;
+    color: #333;
+    padding-top: 20px;    
+}
+
+/*MAIIINN IASNDNASDAJS*/
+
+
+.links{
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(197, 197, 197);
+    height: 50px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #000000;
+    padding-top: 13px;
+    padding-right:20px ;
+    padding-left: 20px;
+    transition: transform 0.4s ease;
+    font-weight: 500;
+}
+.links a:hover{
+    transform: translateY(-5px);
+}
+.link-especial{
+    text-decoration: none;
+    color: #000000;
+    padding-top: 13px;
+    padding-right:20px ;
+    padding-left: 20px;
+    transition: transform 0.4s ease;
+    font-weight: 500;
+}
+.link-especial:hover{
+    transform: translateY(-5px);
+}
+.links p{
+    padding-top: 11px;
+    font-size: 20px;
+}
+
+
+.contenidoo{
+    margin-top: 150px;
+}
+
+.Ztext{
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.Ztext h2{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.Ztext h3{
+    font-weight: 400;
+}
+
+.Ztextdalmatas{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.Ztextdalmatas h2{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.Ztextdalmatas h3{
+    font-weight: 400;
+}
+
+/*Main padres :ooo*/
+.Zona_de_sacrificio{
+    display: flex;
+}
+.Portafolio_Personal{
+    display: flex;
+    margin-top: 200px;
+    width: 0 auto;
+}
+.Above_All_MickDog{
+    display: flex;
+    margin-top: 200px;
+}
+.Dálmatas{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    height: 550px;
+}
+
+/*Animaciones >PP*/
+
+.ZDS{
+    transform: translateX(-100%);
+    animation: cortinaAnimacion 2s forwards;
+}
+.portfolio{
+    transform: translateX(-100%);
+    animation: cortinaAnimacion 4s forwards;
+}
+.AboveAllMickdog{
+    transform: translateX(-100%);
+    animation: cortinaAnimacion 6s forwards;
+}
+.dalmata{
+    height: 400px;
+    transform: translateX(-100%);
+    animation: cortinaAnimacion 8s forwards;
+}
+.demo1{
+    height: 400px;
+    transform: translateX(-100%);
+    animation: cortinaAnimacion 2s forwards;
+}
+.demo2{
+    height: 400px;
+    transform: translateX(-100%);
+    animation: cortinaAnimacion 2.5s forwards;
+}
+.demo3{
+    height: 400px;
+    transform: translateX(-100%);
+    animation: cortinaAnimacion 3s forwards;
+}
+
+@keyframes cortinaAnimacion {
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+.Ztext{
+    animation: pop 1s;
+}
+@keyframes pop {
+    100% {
+        opacity: 1; 
+    }   
+    50% {
+        opacity: 0; 
+    }
+    0% {
+        opacity: 1;
+    }
+}
+
+/*BTN*/
+
+.more_info{
+    height: 80px;
+    width: 180px;
+    margin-top: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: transform 0.4s ease;
+    background-color: #000000;
+    color: #ffcc00;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 25px;
+    border-color: yellow;
+}
+.more_info:hover{
+    transform: translateY(-15px);
+    box-shadow: 0px 5px 0 #ffcc00;
+    cursor: pointer;
+}
+.creator-extra{
+    height: 80px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 40%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: transform 0.4s ease;
+    background-color: #000000;
+    color: #ffcc00;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 30px;
+    border-color: yellow;
+}
+.creator-extra:hover{
+    transform: translateY(-15px);
+    box-shadow: 0px 5px 0 #ffcc00;
+    cursor: pointer;
+}
+/*EXTRTAS (esto e nuevo xddxd)*/
+
+.extras{
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.fuera{
+    display: block;
+    opacity: 1; 
+    transform: translateY(0); 
+    transform: translateY(-10px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.demos{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.demos h2{
+    border-bottom: #646464 2px solid;
+    animation: pop 0.8s;
+}
+
+
+@keyframes pop {
+    100% {
+        opacity: 1; 
+    }   
+    50% {
+        opacity: 0; 
+    }
+    0% {
+        opacity: 1;
+    }
+}
+
+.Demo-1{
+    display: flex;
+    margin-bottom: 150px;
+    animation: pop 0.8s;
+}
+.Demo-2{
+    display: flex;
+    margin-bottom: 150px;
+    animation: pop 0.8s;
+}
+.Demo-3{
+    display: flex;
+    margin-bottom: 150px;
+    animation: pop 0.8s;
+}
+.jueguitos{
+    background-color: #000;
+    height: 550px;  
+}
+.jueguitos h2{
+    background-color: #646464;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.games{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.juego1 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+.juego1 video {
+    width: 100%;
+    height: 100%;
+}
+.texto-sobre-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-shadow: 2px 2px 4px #101010c5;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
+}
+
+.juego1:hover .texto-sobre-video {
+    opacity: 1; 
+}
+
+.texto-sobre-video{
+    background-color: #ffffffb1;
+    width: 230px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+/*FOOOOOTEER*/
+
+footer{
+    background-color: rgb(230, 230, 230);
+    width: 0 auto;
+    height: 400px;
+}
+
+/*VIENE EL PADREEE*/
+.container-Padre{
+    display: flex;
+
+}
+
+/*Adeus mi gente*/
+
+.resume{
+    padding-top: 100px;
+    margin-left: 200px;
+    font-family: poppins;
+}
+.resume h3{
+    font-weight: 300;
+}
+
+
+.info{
+    padding-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+.info a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: poppins;
+    transition: transform 0.3s ease;
+}
+.info a:hover{
+    transform: translateY(-5px);
+}
+
+.contactop{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: poppins;
+    transition: transform 0.4s ease;
+}
+.contactop:hover{
+    transform: scale(1.1);
+}
+
+.secciones{
+    padding-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.secciones a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: poppins;
+    transition: transform 0.3s ease;
+}
+.secciones a:hover{
+    transform: translateY(-5px);
+}
+
+.seccions{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: poppins;
+    transition: transform 0.4s ease;
+}
+.seccions:hover{
+    transform: scale(1.1);
+}
+
+/*Derechos q no tengo AJSDASJDA*/
+
+.texto{
+    background-color: #000;
+    color: #fff;
+    font-family: poppins;
+    margin-top: 20px;
+    width: 0 auto;
+    height: 80px;
+}
+.texto h3{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+/*ASDASDKAWDKA*/
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #646464;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.top{
+    height: 80px;
+    transition: transform 0.4s ease;
+}
+
+.top:hover{
+    transform: translateY(-5px);
+}
+
+.scroll-to-top:hover {
+    background-color: #767676;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+/*detallitos*/
+.wasape{
+    transition: transform 0.4s ease;
+}
+.wasape:hover{
+    transform: scale(1.3);
+}
+.igpe{
+    transition: transform 0.4s ease;
+}
+.igpe:hover{
+    transform: scale(1.3);
+}
+.empe{
+    transition: transform 0.4s ease;
+}
+.empe:hover{
+    transform: scale(1.3);
+}
+.dispe{
+    transition: transform 0.4s ease;
+}
+.dispe:hover{
+    transform: scale(1.3);
+}
